@@ -1,0 +1,93 @@
+body 
+{
+margin : 0;
+padding : 0;
+box-sizing: border-box;
+font-family:'Times New Roman', Times, serif;
+}
+
+
+#clock
+{
+position: relative;
+height : 30vh; /* viewport height */
+width : 100%;
+background-color: #14080e;
+color : white;
+margin-top: 0px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 120px;
+}
+
+
+#j
+{
+height: 30vh; /* viewport height */
+width : 100%;
+background-color: #14080e;
+color : white;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 50px;
+}
+
+
+#but
+{
+height: 40vh; /* viewport height */
+width : 100%;
+background-color: #14080e;
+color : white;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 80px;
+}
+
+
+#dt
+{
+height: 20vh; /* viewport height */
+width : 100%;
+background-color: #14080e;
+color : white;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 75px;
+}
+
+
+#start{
+border-radius: 10px;
+height: 10vh; /* viewport height */
+width : 10%;
+background-color:white;
+color : black;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 30px;
+margin-left: 20px;
+}
+ 
+
+#stop{
+border-radius: 10px;
+height: 10vh; /* viewport height */
+width : 10%;
+background-color:white;
+color : black;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 30px;
+}
+
+
+#start,#stop{
+    gap: 30px;
+}
